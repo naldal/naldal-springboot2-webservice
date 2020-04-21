@@ -24,7 +24,7 @@ before_install:
 before_deploy:
   - zip -r naldal-springboot2-webservice *
   - mkdir -p deploy # deploy 라는 디렉토리를 Travis CI가 실행중인 위치에서 생성
-  - mv freelec-springboot2-webservice.zip deploy/freelec-springboot2-webservice.zip
+  - mv naldal-springboot2-webservice .zip deploy/naldal-springboot2-webservice.zip
 
 # 외부 서비스와 연동될 행위를 선언
 deploy:
