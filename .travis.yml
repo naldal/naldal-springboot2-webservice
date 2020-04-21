@@ -45,7 +45,7 @@ deploy:
     key: naldal-springboot2-webservice.zip # 빌드 파일을 압축해서 전달
 
     bundle_type: zip # 압축 확장자
-    application: freelec-springboot2-webservice # CodeDeploy 애플리케이션
+    application: freelec-springboot2-webservice # CodeDeploy Application
 
     deployment_group: freelec-springboot2-webservice-group # CodeDeploy 배포 그룹
 
