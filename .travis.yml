@@ -22,7 +22,7 @@ before_install:
 
 # jar 파일 압축
 before_deploy:
-  - zip -r freelec-springboot2-webservice
+  - zip -r naldal-springboot2-webservice
   - mkdir -p deploy # deploy 라는 디렉토리를 Travis CI가 실행중인 위치에서 생
   - mv freelec-springboot2-webservice.zip deploy/freelec-springboot2-webservice.zip
 
